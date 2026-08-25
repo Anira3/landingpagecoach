@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -7,72 +8,172 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="morning">
 
   <!-- THEME TOGGLE -->
   <button id="themeToggle" class="theme-toggle">🌙</button>
 
+
   <!-- HERO -->
   <section class="hero reveal">
     <div class="sun"></div>
+
     <h1>Zurück zur natürlichen Lebensweise</h1>
+
     <p>
-      Consultor de Vida Ancestral –  
+      Berater für einen ursprünglichen Lebensstil –  
       Ich begleite Menschen zurück zu Licht, Rhythmus und echter Nahrung.
     </p>
-    <a href="#kontakt" class="btn">Kostenloses Erstgespräch</a>
+
+    <a href="#kontakt" class="btn">
+      Kostenloses Erstgespräch
+    </a>
   </section>
+
 
   <!-- STORY -->
   <section class="story reveal">
+
     <h2>Meine Geschichte</h2>
+
     <p>
       Vor drei Jahren litt ich unter chronischer Dermatitis, ständiger Müdigkeit
       und dem Gefühl, dass mein Körper nicht mehr im Gleichgewicht war.
     </p>
+
     <p>
       Durch amerikanische Naturopathen, ancestrale Medizin und funktionelle Ansätze
       verstand ich: Mein Körper war nicht krank – sondern entfremdet von der Natur.
     </p>
+
     <p>
       Sonnenlicht, Vitamin D, nährstoffreiche tierische Ernährung,
       Schlaf im natürlichen Rhythmus – mein Körper begann zu heilen.
     </p>
+
     <p>
       Heute begleite ich Menschen auf genau diesem Weg zurück zur eigenen Natur.
     </p>
+
   </section>
+
 
   <!-- SÄULEN -->
   <section class="saeulen reveal">
+
     <h2>Die Säulen meiner Arbeit</h2>
+
     <div class="grid">
-      <div class="card">☀️ Sonnenlicht & Vitamin D</div>
-      <div class="card">🥩 Animal-based Ernährung</div>
-      <div class="card">😴 Schlaf & zirkadianer Rhythmus</div>
-      <div class="card">🧪 Vitamine & Blutwerte</div>
-      <div class="card">🧴 Bewusste Kosmetik</div>
-      <div class="card">🌿 Natur & Bewegung</div>
+
+      <div class="card">
+        ☀️ Sonnenlicht & Vitamin D
+      </div>
+
+      <div class="card">
+        🥩 Animal-based Ernährung
+      </div>
+
+      <div class="card">
+        😴 Schlaf & zirkadianer Rhythmus
+      </div>
+
+      <div class="card">
+        🧪 Vitamine & Blutwerte
+      </div>
+
+      <div class="card">
+        🧴 Bewusste Kosmetik
+      </div>
+
+      <div class="card">
+        🌿 Natur & Bewegung
+      </div>
+
     </div>
+
   </section>
+
 
   <!-- KONTAKT -->
   <section class="kontakt reveal" id="kontakt">
-    <h2>Kontakt</h2>
-    <p>Unverbindliches Erstgespräch anfragen</p>
 
-    <form class="contact-form">
-      <input type="text" placeholder="Dein Name" required>
-      <input type="email" placeholder="Deine E-Mail" required>
-      <textarea placeholder="Was möchtest du verändern?"></textarea>
-      <button type="submit" class="btn">Absenden</button>
+    <h2>Kontakt</h2>
+
+    <p>
+      Unverbindliches Erstgespräch anfragen
+    </p>
+
+
+    <!-- FORMSPREE CONTACT FORM -->
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/mgawjjdo"
+      method="POST"
+    >
+
+      <!-- NAME -->
+      <input
+        type="text"
+        name="name"
+        placeholder="Dein Name"
+        autocomplete="name"
+        required
+      >
+
+
+      <!-- EMAIL -->
+      <input
+        type="email"
+        name="email"
+        placeholder="Deine E-Mail"
+        autocomplete="email"
+        required
+      >
+
+
+      <!-- MESSAGE -->
+      <textarea
+        name="message"
+        placeholder="Was möchtest du verändern?"
+        required
+      ></textarea>
+
+
+      <!-- EMAIL SUBJECT -->
+      <input
+        type="hidden"
+        name="subject"
+        value="Neue Anfrage – Ancestral Life"
+      >
+
+
+      <!-- SUBMIT BUTTON -->
+      <button
+        type="submit"
+        class="btn"
+      >
+        Absenden
+      </button>
+
     </form>
+
   </section>
 
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2026 – Ancestral Life</p>
+
+    <p>
+      © 2026 – Ancestral Life
+    </p>
+
   </footer>
 
+
+  <!-- JAVASCRIPT -->
   <script src="script.js"></script>
+
 </body>
 </html>
+```
